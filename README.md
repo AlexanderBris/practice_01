@@ -1,1 +1,70 @@
 # practice_01
+
+runfile('E:/2WORK/python/Practice_01/practice_01.py', wdir='E:/2WORK/python/Practice_01')
+KNeighborsClassifier
+                    precision    recall  f1-score   support
+
+           Walking       0.84      0.97      0.90       496
+  Walking Upstairs       0.90      0.90      0.90       471
+Walking Downstairs       0.95      0.79      0.86       420
+           Sitting       0.91      0.80      0.85       491
+          Standing       0.84      0.93      0.89       532
+            Laying       1.00      0.99      1.00       537
+
+          accuracy                           0.90      2947
+         macro avg       0.91      0.90      0.90      2947
+      weighted avg       0.91      0.90      0.90      2947
+
+RadiusNeighborsClassifier
+                    precision    recall  f1-score   support
+
+           Walking       0.00      0.00      0.00       496
+  Walking Upstairs       0.00      0.00      0.00       471
+Walking Downstairs       0.00      0.00      0.00       420
+           Sitting       0.00      0.00      0.00       491
+          Standing       0.00      0.00      0.00       532
+            Laying       0.18      1.00      0.31       537
+
+          accuracy                           0.18      2947
+         macro avg       0.03      0.17      0.05      2947
+      weighted avg       0.03      0.18      0.06      2947
+
+ExtraTreeClassifier
+                    precision    recall  f1-score   support
+
+           Walking       0.70      0.84      0.76       496
+  Walking Upstairs       0.78      0.69      0.73       471
+Walking Downstairs       0.76      0.68      0.72       420
+           Sitting       0.78      0.76      0.77       491
+          Standing       0.78      0.80      0.79       532
+            Laying       1.00      0.99      1.00       537
+
+          accuracy                           0.80      2947
+         macro avg       0.80      0.79      0.79      2947
+      weighted avg       0.80      0.80      0.80      2947
+
+C:\ProgramData\anaconda3\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\ProgramData\anaconda3\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\ProgramData\anaconda3\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+MLPClassifier
+                    precision    recall  f1-score   support
+
+           Walking       0.94      0.99      0.97       496
+  Walking Upstairs       0.93      0.94      0.94       471
+Walking Downstairs       0.99      0.92      0.95       420
+           Sitting       0.96      0.88      0.92       491
+          Standing       0.88      0.97      0.92       532
+            Laying       1.00      0.98      0.99       537
+
+          accuracy                           0.95      2947
+         macro avg       0.95      0.95      0.95      2947
+      weighted avg       0.95      0.95      0.95      2947
+
+
+
+
+
+
